@@ -285,6 +285,7 @@ Enviar material para alunos.
 **Fluxo Principal**
 1. Professor envia arquivo.
 2. Sistema publica na turma.
+<img width="164" height="184" alt="image" src="https://github.com/user-attachments/assets/6fdfd1c3-0e18-4433-93fc-e81724e7b899" />
 
 ---
 
@@ -301,6 +302,7 @@ Criar turma no sistema.
 
 **Pós-condições**
 - Turma registrada.
+<img width="163" height="184" alt="image" src="https://github.com/user-attachments/assets/2f197172-7a5f-4743-965e-f54255a4635f" />
 
 ---
 
@@ -317,6 +319,7 @@ Aprovar disciplinas do semestre.
 
 **Pós-condições**
 - Oferta liberada para matrícula.
+<img width="156" height="183" alt="image" src="https://github.com/user-attachments/assets/7515a8a6-026f-4ebd-ab91-c456c757877c" />
 
 ---
 
@@ -333,6 +336,7 @@ Gerar boletim do aluno.
 
 **Pós-condições**
 - Boletim gerado.
+<img width="181" height="218" alt="image" src="https://github.com/user-attachments/assets/60f1aeca-f4b8-4aa3-bb2c-99e277e13c2c" />
 
 ---
 
@@ -349,6 +353,7 @@ Gerar cobrança.
 
 **Pós-condições**
 - Cobrança criada.
+<img width="175" height="187" alt="image" src="https://github.com/user-attachments/assets/a6314c3c-081e-46af-a390-717dfa1f57f6" />
 
 ---
 
@@ -365,6 +370,7 @@ Confirmar pagamento.
 
 **Pós-condições**
 - Pagamento registrado.
+<img width="188" height="189" alt="image" src="https://github.com/user-attachments/assets/f91c6ec7-5961-41d1-8f8c-64445cfe2f59" />
 
 ---
 
@@ -381,6 +387,7 @@ Solicitar suporte.
 
 **Pós-condições**
 - Chamado registrado.
+<img width="157" height="183" alt="image" src="https://github.com/user-attachments/assets/eff954d7-70d6-4683-962b-b5a5570de933" />
 
 ---
 
@@ -397,6 +404,7 @@ Administrar contas.
 
 **Pós-condições**
 - Usuários atualizados.
+<img width="178" height="187" alt="image" src="https://github.com/user-attachments/assets/4ae9fb10-899c-4ee2-90e1-83779d030521" />
 
 ---
 
@@ -413,6 +421,7 @@ Gerar relatórios do sistema.
 
 **Pós-condições**
 - Relatório gerado.
+<img width="164" height="184" alt="image" src="https://github.com/user-attachments/assets/28a8daab-1009-4d60-b4cc-ee2085978e99" />
 
   ---
   ## Diagrama Geral
