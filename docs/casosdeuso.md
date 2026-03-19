@@ -70,6 +70,7 @@ Permitir redefinir senha.
 **Fluxos Alternativos**
 
 A1 — Email não encontrado.
+<img width="170" height="185" alt="image" src="https://github.com/user-attachments/assets/91e82e5e-6403-4e27-8b98-b7283cfa1ca0" />
 
 ---
 
@@ -91,6 +92,7 @@ Atualizar dados pessoais.
 1. Aluno acessa perfil.
 2. Altera dados.
 3. Sistema salva alterações.
+<img width="208" height="223" alt="image" src="https://github.com/user-attachments/assets/13a5463d-b024-465b-820b-5cb5aa210ecf" />
 
 ---
 
@@ -111,6 +113,7 @@ Ver grade de aulas.
 **Fluxo Principal**
 1. Aluno abre grade.
 2. Sistema mostra disciplinas e horários.
+<img width="206" height="193" alt="image" src="https://github.com/user-attachments/assets/767ecd31-1629-405d-989a-9d2a66d13146" />
 
 ---
 
@@ -132,6 +135,7 @@ Matricular disciplinas.
 1. Aluno escolhe disciplinas.
 2. Sistema valida vagas e horários.
 3. Matrícula confirmada.
+<img width="170" height="185" alt="image" src="https://github.com/user-attachments/assets/11b28380-6a5a-4621-89d5-a6d6c2cbb879" />
 
 ---
 
@@ -152,7 +156,10 @@ Cancelar disciplina.
 **Fluxo Principal**
 1. Aluno seleciona disciplina.
 2. Sistema confirma cancelamento.
-
+@startuml
+actor Aluno
+Aluno --> (Cancelar Matricula)
+@enduml
 ---
 
 ## UC07 — Consultar Histórico
@@ -172,6 +179,7 @@ Visualizar histórico escolar.
 **Fluxo Principal**
 1. Aluno acessa histórico.
 2. Sistema mostra disciplinas e notas.
+<img width="175" height="187" alt="image" src="https://github.com/user-attachments/assets/98308144-94d6-4b37-836c-987c48f0b970" />
 
 ---
 
@@ -192,6 +200,7 @@ Gerar declaração de matrícula.
 **Fluxo Principal**
 1. Aluno solicita documento.
 2. Sistema gera PDF.
+<img width="169" height="185" alt="image" src="https://github.com/user-attachments/assets/1c993169-2ba4-431f-8272-109f671f5dee" />
 
 ---
 
@@ -212,6 +221,7 @@ Solicitar equivalência de disciplina.
 **Fluxo Principal**
 1. Aluno envia pedido.
 2. Sistema registra protocolo.
+<img width="205" height="192" alt="image" src="https://github.com/user-attachments/assets/039d1f52-6928-472f-a0ba-843e3e414b7a" />
 
 ---
 
@@ -233,6 +243,7 @@ Registrar presença.
 1. Professor abre turma.
 2. Marca presença.
 3. Sistema salva.
+<img width="176" height="187" alt="image" src="https://github.com/user-attachments/assets/cc1fdde1-729a-47e1-82ba-0172e29a2c5e" />
 
 ---
 
@@ -253,6 +264,7 @@ Registrar notas.
 **Fluxo Principal**
 1. Professor insere notas.
 2. Sistema salva dados.
+<img width="149" height="181" alt="image" src="https://github.com/user-attachments/assets/576f4961-3b24-4a46-adc9-8357c2063f69" />
 
 ---
 
@@ -401,3 +413,7 @@ Gerar relatórios do sistema.
 
 **Pós-condições**
 - Relatório gerado.
+
+  ---
+  ## Diagrama Geral
+  <img width="1180" height="108" alt="image" src="https://github.com/user-attachments/assets/bf2ca350-7d18-4ff2-a2a8-2033f6f1651a" />
